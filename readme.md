@@ -1,6 +1,6 @@
 # Books Plugin
 
-This is a small plugin for [WordPress](http://wordpress.org) that will add a Books [Post Format](http://codex.wordpress.org/Post_Formats) to your site, allowing you to offer eBook for download to your guests.
+This is a small plugin for [WordPress](http://wordpress.org) that will add a Books [Post Type](http://codex.wordpress.org/Post_Types) to your site, allowing you to offer eBook for download to your guests.
 
 You will be able to set the author, license, genre, cover art, and other meta data per put.  You may also view author pages.
 
