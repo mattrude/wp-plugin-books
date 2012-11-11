@@ -8,7 +8,15 @@
  Author URI: http://mattrude.com
 */
 
-//This plugin will create a custom post-type 
+// Add MIME Types epub & mobi
+function addUploadMimes($mimes) {
+    $mimes = array_merge($mimes, array(
+        'epub|mobi' => 'application/octet-stream'
+    ));
+    return $mimes;
+}
+add_filter('upload_mimes', 'addUploadMimes');
+
 
 // Add Custom Post Types for WordPress 2.9
 add_action( 'init', 'create_books_post_type' );
